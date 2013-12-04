@@ -5,6 +5,8 @@ STL files sliced with Skeinforge are not snapped to zero Z coordinate automatica
 This could lead to various errors while printing and you have to be sure to snap the STL object to Z = 0.
 While there are GUI tools that can do that, snapz aims for command line utility.
 
+It's very simple. Snapz would be a script if it wouldn't depend on a C library. It does exactly one thing and has only one feature. It snaps the given STL file to zero Z coordinate. 
+
 Compile
 -------
 
